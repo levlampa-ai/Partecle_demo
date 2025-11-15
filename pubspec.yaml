@@ -1,0 +1,19 @@
+name: particle_demo
+description: High quality particle visual demo (mobile + web)
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  vector_math: ^2.1.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/particle.png
+  shaders:
+    - shaders/bloom.frag
